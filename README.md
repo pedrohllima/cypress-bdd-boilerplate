@@ -16,7 +16,7 @@ Abrir a aplicação do Cypress
 ./node_modules/.bin/cypress open ou npx cypress open
 ```
 
-depois carregar em um  ficheiro `.feature` na lista de specs e ver a mágica acontecer :)!
+depois, basta carregar em um  ficheiro `.feature` na lista de specs e ver a mágica acontecer :)!
 
 ### Correndo Testes a partir de uma Tag
 
