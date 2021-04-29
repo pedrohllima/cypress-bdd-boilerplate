@@ -60,3 +60,9 @@ Example:
 ```shell
   ./node_modules/.bin/cypress-tags run -e GLOB='cypress/integration/**/*.feature'
 ```
+
+
+## Referências
+* https://cucumber.io/docs/gherkin/reference/
+* https://docs.cypress.io/guides/references/best-practices
+* https://github.com/TheBrainFamily/cypress-cucumber-preprocessor
