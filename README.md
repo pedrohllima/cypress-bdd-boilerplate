@@ -13,7 +13,12 @@ para instalar todas as depências
 
 Abrir a aplicação do Cypress 
 ```bash
-./node_modules/.bin/cypress open ou npx cypress open
+./node_modules/.bin/cypress open
+```
+ ou 
+ 
+```bash
+npx cypress open
 ```
 
 depois, basta carregar em um  ficheiro `.feature` na lista de specs e ver a mágica acontecer :)!
