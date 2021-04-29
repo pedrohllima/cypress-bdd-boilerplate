@@ -1,0 +1,20 @@
+{
+  "baseUrl": "http://127.0.0.1:8000",
+  "testFiles": "**/*.feature",
+  "video": true,
+  "videosFolder": "cypress/videos",
+  "screenshotsFolder": "cypress/screenshots",
+  "requestTimeout": 7000,
+  "responseTimeout": 90000,
+  "waitForAnimations": true,
+  "chromeWebSecurity": true,
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/reports",
+    "reportFilename": "report",
+    "overwrite": false,
+    "html": false,
+    "json": true,
+    "charts": true
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "merge": "mochawesome-merge cypress/reports/*.json -o cypress/reports/output.json",
+    "generate_html_report": "marge cypress/reports/output.json --reportDir ./cypress/reports/ --inline",
+    "cypress:report": "npm run merge && npm run generate_html_report"
+  },
+  "devDependencies": {
+    "axios": "^0.21",
+    "cypress": "^7.2.0",
+    "cypress-cucumber-preprocessor": "^4.1.0",
+    "faker": "^5.5.3",
+    "laravel-mix": "^6.0.6",
+    "lodash": "^4.17.19",
+    "mocha": "^8.3.2",
+    "mochawesome": "^6.2.2",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.2.0",
+    "postcss": "^8.1.14"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
