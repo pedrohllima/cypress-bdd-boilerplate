@@ -1,5 +1,5 @@
 {
-  "baseUrl": "http://127.0.0.1:8000",
+  "baseUrl": "https://www.google.com",
   "testFiles": "**/*.feature",
   "video": true,
   "videosFolder": "cypress/videos",
