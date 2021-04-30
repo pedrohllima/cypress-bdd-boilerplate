@@ -4,7 +4,7 @@
 
 ## Boilerplate para automação de testes E2E com Cypress
 
-para instalar todas as depências
+para instalar todas as dependências
 ````bash
    npm install
 ````
